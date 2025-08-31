@@ -1,34 +1,14 @@
-# Dependencies
-node_modules/
+# Node modules
+Margdarshak-main/node_modules/
+Margdarshak-main/frontend/node_modules/
 
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+# Environment files
+Margdarshak-main/.env
 
-# Environment
-.env
-.env.local
-.env.*.local
+# Uploads or temp files
+Margdarshak-main/backend/uploads/
 
-# Build output
-dist/
-build/
-out/
-.vite/
-
-# IDE / Editor
+# VSCode and system files
 .vscode/
-.idea/
-
-# OS files
 .DS_Store
 Thumbs.db
-desktop.ini
-
-# Backend uploads (user files)
-backend/uploads/
-
-# Keep uploads folder but empty
-!backend/uploads/.gitkeep
